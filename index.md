@@ -1,37 +1,68 @@
-##web
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>梅興的課程預告</title>
+    <link rel="stylesheet" href="nav.css">
+    <script src="nav.js"></script>
+</head>
+<style>
+    
+    
+</style>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <div class="header">
+                <h1>header</h1>
+            </div>
+        </header>
+        <div class="clearfix"></div>
+        <div class="content">
+            <aside>
+                <nav>
+                    <p>課程預告</p>
+                    <ul id="tku">
+                        <li onclick="play(1)">Part1</li>
+                        <li onclick="play(2)">Part2</a></li>
+                        <li onclick="play(3)">Part3</a></li>
+                        <li onclick="play(4)">Part4</a></li>
+                        
+                    </ul>
+                    <p>相簿</p>
+                    <ul class="image">
+                        <li><a href="#">paparaya-1</a></li>
+                        <li><a href="#">paparaya-2</a></li>
+                        <li><a href="#">paparaya-3</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <section>
+                <div id="display">
 
-You can use the [editor on GitHub](https://github.com/TimChen0802/Web-/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+                </div>
+                <div id="images">
+                    <ul>
+                        <li><img src="image/11.PNG" alt="" onclick="play(1)"></li>
+                        <li><img src="image/22.PNG" alt="" onclick="play(2)"></li>
+                        <li><img src="image/33.PNG" alt="" onclick="play(3)"></li>
+                        <li><img src="image/44.PNG" alt="" onclick="play(4)"></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="clearfix"></div>
+        <footer>
+            footer
+        </footer>
+    </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## H
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TimChen0802/Web-/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+   
+</body>
+</html>
